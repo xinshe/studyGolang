@@ -1,0 +1,16 @@
+[2021-05-20 00:23:42] [ERROR] [main.go main:18] this is error logger. name:Andy, id:1002
+[2021-05-20 00:23:42] [FATAL] [main.go main:19] this is fatal logger.
+[2021-05-20 00:23:45] [ERROR] [main.go main:18] this is error logger. name:Andy, id:1002
+[2021-05-20 00:23:45] [FATAL] [main.go main:19] this is fatal logger.
+[2021-05-20 00:23:48] [ERROR] [main.go main:18] this is error logger. name:Andy, id:1002
+[2021-05-20 00:23:48] [FATAL] [main.go main:19] this is fatal logger.
+[2021-05-20 00:23:51] [ERROR] [main.go main:18] this is error logger. name:Andy, id:1002
+[2021-05-20 00:23:51] [FATAL] [main.go main:19] this is fatal logger.
+[2021-05-20 00:23:54] [ERROR] [main.go main:18] this is error logger. name:Andy, id:1002
+[2021-05-20 00:23:54] [FATAL] [main.go main:19] this is fatal logger.
+[2021-05-20 00:23:57] [ERROR] [main.go main:18] this is error logger. name:Andy, id:1002
+[2021-05-20 00:23:57] [FATAL] [main.go main:19] this is fatal logger.
+[2021-05-20 00:24:00] [ERROR] [main.go main:18] this is error logger. name:Andy, id:1002
+[2021-05-20 00:24:00] [FATAL] [main.go main:19] this is fatal logger.
+[2021-05-20 00:24:03] [ERROR] [main.go main:18] this is error logger. name:Andy, id:1002
+[2021-05-20 00:24:03] [FATAL] [main.go main:19] this is fatal logger.
