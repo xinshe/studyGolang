@@ -1,0 +1,36 @@
+// 指定使用protobuf版本
+// 此处使用v3版本
+syntax = "proto3";
+
+// 包名，通过protoc生成go文件
+package pb;
+
+option go_package="./../pb";  // 指定生成 *.pb.go文件的目录，从当前文件所在位置开始算
+
+// 性别类型
+// 枚举类型第一个字段必须为0
+enum GenderType {
+  SECRET = 0;
+  FEMALE = 1;
+  MALE = 2;
+}
+
+// 人
+message Person {
+  int64 id = 1;		// 可以不从1开始，但是不能重复。不能使用编号：19000-19999
+  string name = 2;
+  // 枚举
+  GenderType gender = 3;
+  string number = 4;
+  // 联合体
+  oneof address {
+    string province = 5;
+    string city = 6;
+  }
+}
+
+// 联系簿
+// 消息体可以嵌套
+message ContactBook {
+  repeated Person persons = 1;	// 数组
+}

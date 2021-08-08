@@ -1,0 +1,4 @@
+mode: set
+studyGolang/unitTest/demo1/split.go:9.45,12.13 2 1
+studyGolang/unitTest/demo1/split.go:17.2,18.8 2 1
+studyGolang/unitTest/demo1/split.go:12.13,16.3 3 1
